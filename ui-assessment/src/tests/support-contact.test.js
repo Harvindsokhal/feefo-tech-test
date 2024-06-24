@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import SupportContact from './components/SupportContact'
+import { SupportContact } from '../components'
 
 const support = {
   name: 'John Smith',

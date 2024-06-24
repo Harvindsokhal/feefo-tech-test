@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import SalesOverview from './components/SalesOverview'
+import { SalesOverview } from '../components'
 
 const sales = {
   uploads: 8,
