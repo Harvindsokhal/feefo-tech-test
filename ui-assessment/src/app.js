@@ -1,26 +1,26 @@
-import './app.css';
-import AccountOverview from './account-overview';
+import './app.css'
+import AccountOverview from './account-overview'
 
 function App() {
   const accountOverviewStub = {
     supportContact: {
       name: 'John Smith',
-      email: 'john.smith@feefo.com'
+      email: 'john.smith@feefo.com',
+      phone: '020 3362 4208',
     },
     salesOverview: {
       uploads: 8,
       successfulUploads: 3,
       linesAttempted: 20,
       linesSaved: 4,
-    }
+    },
   }
-
 
   return (
     <div className="App">
-      <AccountOverview data={accountOverviewStub}/>
+      <AccountOverview data={accountOverviewStub} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

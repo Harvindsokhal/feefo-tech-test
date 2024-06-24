@@ -1,19 +1,13 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHardHat } from '@fortawesome/free-solid-svg-icons';
-import styled from 'styled-components';
+import React from 'react'
+import { SalesOverview, SupportContact } from './components'
 
-import './account-overview.css';
-
-export const AccountOverview = ({data}) => {
-  console.log(data);
-
+export const AccountOverview = ({ data }) => {
   return (
     <div className="AccountOverview">
-      <FontAwesomeIcon icon={faHardHat} />
-      Build your components here
+      <SupportContact />
+      <SalesOverview />
     </div>
   )
 }
 
-export default AccountOverview;
+export default AccountOverview
